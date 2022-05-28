@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+       
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Espacio donde se generan las tortas -->
+            <main id="tortas" class="col-sm-8 row"></main>
+            <!-- Espacio para generar el carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: S/. <span id="total"></span></p>
+                <button id="boton-limpiar" class="btn btn-danger">Limpiar</button>
+            </aside>
+        </div>
+    </div>
+    <script type="text/javascript" src="./funcion.js"></script>
+</body>
+</html>
