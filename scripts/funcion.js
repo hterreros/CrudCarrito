@@ -5,37 +5,37 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             nombre: 'Cake Surtido',
             precio: 42.0,
-            imagen: 'torta1.jpg'
+            imagen: 'images/torta1.jpg'
         },
         {
             id: 2,
             nombre: 'Torta de Frutas',
             precio: 38.0,
-            imagen: 'torta2.jpg'
+            imagen: 'images/torta2.jpg'
         },
         {
             id: 3,
             nombre: 'Combo Cupcakes',
             precio: 40.0,
-            imagen: 'torta7.jpg'
+            imagen: 'images/torta7.jpg'
         },
         {
             id: 4,
             nombre: 'Cake de Bautizo',
             precio: 35.0,
-            imagen: 'torta8.jpg'
+            imagen: 'images/torta8.jpg'
         },
         {
             id: 5,
             nombre: 'Cake de Flores',
             precio: 26.0,
-            imagen: 'torta5.jpg'
+            imagen: 'images/torta5.jpg'
         },
         {
             id: 6,
             nombre: 'Doble Cupcakes',
             precio: 25.0,
-            imagen: 'torta6.jpg'
+            imagen: 'images/torta6.jpg'
         }
     ];
 
