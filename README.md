@@ -1,3 +1,3 @@
 # CrudCarrito
 # Para este carrito se ha generado una lista de pasteles fijo y se van agregando
-# y quitando objetos dom dentro del carrito.
+# con el botón + y quitando objetos con el botón x dentro del carrito.
