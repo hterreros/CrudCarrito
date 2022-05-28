@@ -1,0 +1,138 @@
+.container-welcome {
+    display: flex;
+    margin-left: 10px;
+}
+body{
+    background-image: url("images/pasteleria2.jpg");
+    background-size: 100% ;
+    font-family: 'Leckerli One', cursive;
+}
+.img-main{
+    height: 250px;
+}
+
+
+img.izquierda {
+    float: left;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+img.abajo {
+    float: right;
+    height: 80px;
+    width: 80px;
+}
+img.iconos {
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+.card-deck {
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.card-img-top:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px 15px #000000;
+    ;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.img-main:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #000000;
+    ;
+    -webkit-box-shadow: 0px 0px 15px 15px #000000;
+    ;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+#productos {
+    margin-left: 10px;
+    font-family: 'Leckerli One', cursive;
+}
+
+.contactos {
+    margin-left: 10px;
+    display: flex;
+    font-family: 'Leckerli One', cursive;
+}
+
+#contacto {
+    margin-left: 10px;
+    font-family: 'Leckerli One', cursive;
+}
+
+.card .border-dark .mb-3{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+  h1, h2{
+    font-family: 'Leckerli One', cursive;
+  }
+
+
+
+  /* Size web-xl */
+
+@media (max-width:1280px) {
+    #dir{ width:"450";height:"250";}
+}
+
+/* Size web */
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    #dir{ width:"450";height:"250";}
+}
+
+
+/* Size tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    #dir{ width:"100"; height:"60";}
+    .card-deck{display: inline;}
+    .container-welcome{display: inline;}
+}
+
+/* Size tablet-landscape */
+
+@media (min-width: 991px) and (max-width: 1280px) {
+    #dir{ width:"100"; height:"60";}
+    .card-deck{display: inline;}
+    .container-welcome{display: inline;}
+}
+
+/* Size tablet-max-width */
+
+@media (max-width: 991px) {
+#dir{ width:"100"; height:"60";}
+.card-deck{display: inline;}
+.container-welcome{display: inline;}
+}
+
+/* Size mobile */
+
+@media (max-width: 478px) {
+#dir{ width:"100"; height:"60";}
+.card-deck{display: inline;}
+.container-welcome{display: inline;}
+}
+
+/* Size mobile-landscape */
+@media (max-width: 850px) and (orientation: landscape) {
+    #dir{ width:"100"; height:"60";}
+    .card-deck{display: inline;}
+    .container-welcome{display: inline;}
+}

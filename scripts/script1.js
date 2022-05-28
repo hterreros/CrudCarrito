@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const listaDeTortas = [
         {
             id: 1,
-            nombre: 'Cake Surtido',
+            nombre: 'Cake de Frutas',
             precio: 42.0,
             imagen: 'images/torta1.jpg'
         },
         {
             id: 2,
-            nombre: 'Torta de Frutas',
+            nombre: 'Torta de Moras',
             precio: 38.0,
             imagen: 'images/torta2.jpg'
         },
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
             miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${moneda}${miItem[0].precio}`;
             // Boton de borrar
             const miBoton = document.createElement('button');
-            miBoton.classList.add('btn', 'btn-danger', 'mx-5');
+            miBoton.classList.add('btn', 'btn-dark', 'mx-5');
             miBoton.textContent = 'X';
             miBoton.style.marginLeft = '1rem';
             miBoton.dataset.item = item;
