@@ -183,7 +183,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function guardarCarritoEnLocalStorage () {
         miLocalStorage.setItem('carrito', JSON.stringify(carrito));
-        //miLocalStorage.setItem('carrito', carrito);
     }
 
     function cargarCarritoDeLocalStorage () {
@@ -191,7 +190,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (miLocalStorage.getItem('carrito') !== null) {
             // Carga la información
             carrito = JSON.parse(miLocalStorage.getItem('carrito'));
-            //carrito = miLocalStorage.getItem('carrito');
         }
     }
 
